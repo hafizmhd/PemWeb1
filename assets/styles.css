@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav{
+    
+    text-align: center;
+    margin: 15px 0;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 12px;
+    padding: 0;
+    
+    
+}
+
+nav li{
+    float: left;
+    background-color: #FEF5AC;
+    margin: 0 30px;
+    padding: 7px 14px;
+    border-radius: 10px;
+}
+
+nav li:hover{
+    background-color: #a8981c;
+}
+
+nav li a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+main{
+    position: static;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+}
+
+header div{
+    margin: 30px 90px;
+    margin-top: 57px;
+}
+
+header div h1{
+    padding-top: 60px;
+}
+
+header div h2{
+    font-size: 50px;
+}
+
+header div p{
+    font-size: 28px;
+    padding-bottom: 60px;
+}
+
+#skill{
+    display: flex;
+    margin: 30px 90px;
+}
+
+#skill h1{
+    font-size: 32px;
+}
+
+#skill th div {
+    padding-top: 30px;
+}
+
+#skill td div{
+    padding-top: 30px;
+}
+
+#skill #c img{
+    width: 50px;
+    length: auto;
+}
+
+#skill #html img{
+    width: 70px;
+    length: auto;
+}
+#skill #mysql img{
+    width: 70px;
+    length: auto;
+}
+
+#skill td{
+    padding-left: 110px;
+}
+
+#skill #python img{
+    width: 70px;
+    length: auto;
+}
+#skill #office img{
+    width: 140px;
+    length: auto;
+}
+
+#plan{
+    display: flex;
+    background-color: aqua;
+}
+
+.plan-content{
+    margin: 30px 90px;
+}
+.plan-content div{
+    float: left;
+    margin: 30px 0px;
+}
+
+.plan-content #plan-kiri ~ div{
+    margin-left: 30px;
+}
+
+#kontak{
+    display: flex;
+    margin: 30px 90px;
+}
+
+#kontak img{
+    margin-top: 30px;
+    width: 200px;
+    length:auto;
+    padding-left: 60px;
+}
+
+#kontak table td{
+    padding-left: 10px;
+}
+#kontak table th{
+    text-align: left;
+}
